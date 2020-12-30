@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65268" started-at="2020-12-30T07:20:46Z" finished-at="2020-12-30T07:21:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65268" started-at="2020-12-30T07:20:46Z" finished-at="2020-12-30T07:21:51Z">
+      <class name="PPASTestScenario.TargetDistributionProcess">
+        <test-method status="PASS" signature="RedirectionofViewMillerTarget()[pri:0, instance:PPASTestScenario.TargetDistributionProcess@5aa9e4eb]" name="RedirectionofViewMillerTarget" duration-ms="38909" started-at="2020-12-30T12:50:46Z" finished-at="2020-12-30T12:51:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RedirectionofViewMillerTarget -->
+        <test-method status="PASS" signature="MillerTargetDistributionFunctionality()[pri:0, instance:PPASTestScenario.TargetDistributionProcess@5aa9e4eb]" name="MillerTargetDistributionFunctionality" duration-ms="13216" started-at="2020-12-30T12:51:25Z" finished-at="2020-12-30T12:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MillerTargetDistributionFunctionality -->
+        <test-method status="PASS" signature="VerifyTargetMillerQuantity()[pri:0, instance:PPASTestScenario.TargetDistributionProcess@5aa9e4eb]" name="VerifyTargetMillerQuantity" duration-ms="13131" started-at="2020-12-30T12:51:38Z" finished-at="2020-12-30T12:51:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTargetMillerQuantity -->
+      </class> <!-- PPASTestScenario.TargetDistributionProcess -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

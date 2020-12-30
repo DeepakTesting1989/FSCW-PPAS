@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional">
+
+<listeners>
+<listener class-name = "PPASTestScenario.Listener"/>
+</listeners>
+	
+    
+   <test name="State Configuration Scenarios" >
+    <classes>
+          <class name="PPASTestScenario.ConfigurationofState"/>
+    	</classes>
+    </test> 
+     
+   
+     <test name="District Configuration Scenarios Scenarios" >
+    <classes>
+          <class name="PPASTestScenario.ConfigurationofDistrict"/>
+       </classes>
+    </test>
+    
+    
+ 
+   
+     <test name="Pacs Configuration Scenarios" >
+    <classes>
+          <class name="PPASTestScenario.ConfigurationofPacs"/>
+     </classes>
+    </test>     
+          
+          
+          
+    <test name="Target Distribution Scenarios" >
+    <classes>
+          <class name="PPASTestScenario.TargetDistributionProcess" />
+     </classes>
+    </test>      
+          
+          
+    <test name="Paddy Purchase Scenarios" >
+    <classes>     
+          <class name="PPASTestScenario.PaddyPurchase" />
+    </classes>
+    </test>      
+    
+    <test name="Transit VehicleRegistration Scenarios" >
+    <classes>     
+          <class name="PPASTestScenario.TrasitPassVehicleRegistration" />
+    </classes>
+    </test> 
+           
+    <test name="Transit PassPaddyLoading Scenarios" >
+    <classes>     
+          <class name="PPASTestScenario.TransitPassPaddyLoading" />
+    </classes>
+    </test>  
+    
+     
+          
+    <test name="MillerAcceptance Scenarios" >
+    <classes>      
+          <class name="PPASTestScenario.MillerAcceptance"/>
+    </classes>
+    </test> 
+    
+    </suite> 
+    

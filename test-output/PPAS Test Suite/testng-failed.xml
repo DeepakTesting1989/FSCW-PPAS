@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PPAS Test Suite]">
+  <listeners>
+    <listener class-name="PPASTestScenario.Listener"/>
+  </listeners>
+  <test name="ConfigurationProcess Scenarios(failed)">
+    <classes>
+      <class name="PPASTestScenario.TargetDistributionProcess">
+        <methods>
+          <include name="MillerTargetDistributionFunctionality"/>
+          <include name="VerifyTargetMillerQuantity"/>
+          <include name="RedirectionofViewMillerTarget"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TargetDistributionProcess -->
+      <class name="PPASTestScenario.ConfigurationProcess">
+        <methods>
+          <include name="VerifySessonCloseFunctionality"/>
+          <include name="VeifyDuplicityPACSConfiguration"/>
+          <include name="ConfigurationPageofPACS"/>
+          <include name="VerifyViewPACSConfigurationFunctionality"/>
+          <include name="StatusAfterSeasonClosed"/>
+          <include name="AddPACSConfigurationFunctionality"/>
+        </methods>
+      </class> <!-- PPASTestScenario.ConfigurationProcess -->
+    </classes>
+  </test> <!-- ConfigurationProcess Scenarios(failed) -->
+</suite> <!-- Failed suite [PPAS Test Suite] -->

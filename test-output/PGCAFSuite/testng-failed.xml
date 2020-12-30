@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PGCAFSuite]">
+  <test name="ConfigurationProcess Scenarios(failed)">
+    <classes>
+      <class name="PPASTestScenario.ConfigurationProcess">
+        <methods>
+          <include name="VerifySessonCloseFunctionality"/>
+          <include name="VeifyDuplicityPACSConfiguration"/>
+          <include name="StatusAfterSeasonClosed"/>
+          <include name="ViewAndEditDistrictConfigurationFunctionality"/>
+          <include name="AddPACSConfigurationFunctionality"/>
+        </methods>
+      </class> <!-- PPASTestScenario.ConfigurationProcess -->
+    </classes>
+  </test> <!-- ConfigurationProcess Scenarios(failed) -->
+</suite> <!-- Failed suite [PGCAFSuite] -->

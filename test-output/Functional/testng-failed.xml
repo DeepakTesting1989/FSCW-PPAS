@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional]">
+  <listeners>
+    <listener class-name="PPASTestScenario.Listener"/>
+  </listeners>
+  <test name="ConfigurationProcess Scenarios(failed)">
+    <classes>
+      <class name="PPASTestScenario.PaddyPurchase">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.PaddyPurchase -->
+      <class name="PPASTestScenario.ConfigurationProcess">
+        <methods>
+          <include name="VerifySessonCloseFunctionality"/>
+          <include name="VeifyDuplicityPACSConfiguration"/>
+        </methods>
+      </class> <!-- PPASTestScenario.ConfigurationProcess -->
+      <class name="PPASTestScenario.TransitPassPaddyLoading">
+        <methods>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TransitPassPaddyLoading -->
+      <class name="PPASTestScenario.TrasitPassVehicleRegistration">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TrasitPassVehicleRegistration -->
+      <class name="PPASTestScenario.MillerAcceptance">
+        <methods>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.MillerAcceptance -->
+    </classes>
+  </test> <!-- ConfigurationProcess Scenarios(failed) -->
+  <test name="TargetDistributionProcess Scenarios(failed)">
+    <classes>
+      <class name="PPASTestScenario.PaddyPurchase">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.PaddyPurchase -->
+      <class name="PPASTestScenario.TransitPassPaddyLoading">
+        <methods>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TransitPassPaddyLoading -->
+      <class name="PPASTestScenario.TrasitPassVehicleRegistration">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TrasitPassVehicleRegistration -->
+      <class name="PPASTestScenario.MillerAcceptance">
+        <methods>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.MillerAcceptance -->
+      <class name="PPASTestScenario.TargetDistributionProcess">
+        <methods>
+          <include name="MillerTargetDistributionFunctionality"/>
+          <include name="VerifyTargetMillerQuantity"/>
+          <include name="RedirectionofViewMillerTarget"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TargetDistributionProcess -->
+    </classes>
+  </test> <!-- TargetDistributionProcess Scenarios(failed) -->
+  <test name="PaddyPurchase Scenarios(failed)">
+    <classes>
+      <class name="PPASTestScenario.PaddyPurchase">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="ValidateTestdateshouldnotmorethenCurrentdate"/>
+          <include name="VerifyAddPaddyPurchase"/>
+          <include name="tearDown"/>
+          <include name="PurchaseMandatorinessOfParameterResults"/>
+          <include name="ValidateGrossWeightnotmorethanTokenshedulequantity"/>
+          <include name="PaddyLoadingFunctionalityforRedirection"/>
+          <include name="PurchaseWithPreviousScheduleDate"/>
+          <include name="VerifyAddedPaddyPurchaseDetailsInViewTab"/>
+        </methods>
+      </class> <!-- PPASTestScenario.PaddyPurchase -->
+      <class name="PPASTestScenario.TransitPassPaddyLoading">
+        <methods>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TransitPassPaddyLoading -->
+      <class name="PPASTestScenario.TrasitPassVehicleRegistration">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TrasitPassVehicleRegistration -->
+      <class name="PPASTestScenario.MillerAcceptance">
+        <methods>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.MillerAcceptance -->
+    </classes>
+  </test> <!-- PaddyPurchase Scenarios(failed) -->
+  <test name="TrasitPassVehicleRegistration Scenarios(failed)">
+    <classes>
+      <class name="PPASTestScenario.PaddyPurchase">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.PaddyPurchase -->
+      <class name="PPASTestScenario.TransitPassPaddyLoading">
+        <methods>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TransitPassPaddyLoading -->
+      <class name="PPASTestScenario.TrasitPassVehicleRegistration">
+        <methods>
+          <include name="AddVehicleRegistrationforTransitPass"/>
+          <include name="extentReportSetUp"/>
+          <include name="VerifyDuplicateVehicleRegistration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TrasitPassVehicleRegistration -->
+      <class name="PPASTestScenario.MillerAcceptance">
+        <methods>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.MillerAcceptance -->
+    </classes>
+  </test> <!-- TrasitPassVehicleRegistration Scenarios(failed) -->
+  <test name="TransitPassPaddyLoading Scenarios(failed)">
+    <classes>
+      <class name="PPASTestScenario.PaddyPurchase">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.PaddyPurchase -->
+      <class name="PPASTestScenario.TransitPassPaddyLoading">
+        <methods>
+          <include name="PaddyLoadingFunctionalityforRedirection"/>
+          <include name="VerifyLoadingBagsNoMoreThanVendorReceiptBags"/>
+          <include name="VeriyViewPaddyLoadingAndConfirm"/>
+          <include name="VerifyPaddyloadingfunctionality"/>
+          <include name="tearDown"/>
+          <include name="ViewPaddyLoadingTotalLoadingQuantityMoreThanVendorReceiptQuantity"/>
+          <include name="PaddyLoadingWithTotalLoadingQuantityMoreThanVehicleCCapacity"/>
+          <include name="VerifyDeleteFunctionalityOfTP"/>
+          <include name="extentReportSetUp"/>
+          <include name="VerifyPPCNotTPMoreThanMillerTarget"/>
+          <include name="VerifyPaddyLoadingFunctionality"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TransitPassPaddyLoading -->
+      <class name="PPASTestScenario.TrasitPassVehicleRegistration">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TrasitPassVehicleRegistration -->
+      <class name="PPASTestScenario.MillerAcceptance">
+        <methods>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.MillerAcceptance -->
+    </classes>
+  </test> <!-- TransitPassPaddyLoading Scenarios(failed) -->
+  <test name="MillerAcceptance Scenarios(failed)">
+    <classes>
+      <class name="PPASTestScenario.PaddyPurchase">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.PaddyPurchase -->
+      <class name="PPASTestScenario.TransitPassPaddyLoading">
+        <methods>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TransitPassPaddyLoading -->
+      <class name="PPASTestScenario.TrasitPassVehicleRegistration">
+        <methods>
+          <include name="extentReportSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- PPASTestScenario.TrasitPassVehicleRegistration -->
+      <class name="PPASTestScenario.MillerAcceptance">
+        <methods>
+          <include name="AcceptanceOfTransitPass"/>
+          <include name="tearDown"/>
+          <include name="extentReportSetUp"/>
+        </methods>
+      </class> <!-- PPASTestScenario.MillerAcceptance -->
+    </classes>
+  </test> <!-- MillerAcceptance Scenarios(failed) -->
+</suite> <!-- Failed suite [Functional] -->

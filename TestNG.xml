@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="PPAS Test Suite">
+	
+<listeners>
+<listener class-name = "PPASTestScenario.Listener"/>
+</listeners>
+
+	<test name="ConfigurationProcess Scenarios" >
+    <classes>
+          <class name="PPASTestScenario.ConfigurationProcess"/>
+   
+
+	 
+          <class name="PPASTestScenario.TargetDistributionProcess"/>
+    </classes>
+    </test>
+	</suite>
